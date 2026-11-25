@@ -41,8 +41,8 @@ suppressPackageStartupMessages({
 base_dir    <- file.path(path.expand("~"), "Desktop", "607", "IBD_MTX_project")
 data_raw    <- file.path(base_dir, "data", "raw")
 data_meta   <- file.path(base_dir, "data", "metadata")
-results_qc  <- file.path(base_dir, "results", "qc")
-logs_dir    <- file.path(base_dir, "logs")
+results_qc  <- file.path(base_dir, "transcriptomics", "microbial", "results", "qc")
+logs_dir    <- file.path(base_dir, "transcriptomics", "microbial", "logs")
 
 # Create directories if needed
 for (d in c(data_raw, data_meta, results_qc, logs_dir)) {

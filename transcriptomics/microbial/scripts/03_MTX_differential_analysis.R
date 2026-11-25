@@ -64,9 +64,9 @@ base_dir  <- file.path(path.expand("~"), "Desktop", "607", "IBD_MTX_project")
 gf_file   <- file.path(base_dir, "data", "raw",       "MTX_genefamilies.tsv.gz")
 meta_file <- file.path(base_dir, "data", "processed",  "analysis_cohort_metadata.csv")
 proc_dir  <- file.path(base_dir, "data", "processed")
-diff_dir  <- file.path(base_dir, "results", "differential")
-figs_dir  <- file.path(base_dir, "figures")
-logs_dir  <- file.path(base_dir, "logs")
+diff_dir  <- file.path(base_dir, "transcriptomics", "microbial", "results", "differential")
+figs_dir  <- file.path(base_dir, "transcriptomics", "microbial", "figures")
+logs_dir  <- file.path(base_dir, "transcriptomics", "microbial", "logs")
 
 for (d in c(proc_dir, diff_dir, figs_dir, logs_dir)) {
   if (!dir.exists(d)) dir.create(d, recursive = TRUE)

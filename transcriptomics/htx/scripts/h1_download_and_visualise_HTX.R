@@ -56,9 +56,9 @@ base_dir   <- file.path(path.expand("~"), "Desktop", "607", "IBD_MTX_project")
 data_raw   <- file.path(base_dir, "data", "raw")
 data_meta  <- file.path(base_dir, "data", "metadata")
 data_proc  <- file.path(base_dir, "data", "processed")
-results_qc <- file.path(base_dir, "results", "qc")
-figs_dir   <- file.path(base_dir, "figures")
-logs_dir   <- file.path(base_dir, "logs")
+results_qc <- file.path(base_dir, "transcriptomics", "htx", "results", "qc")
+figs_dir   <- file.path(base_dir, "transcriptomics", "htx", "figures")
+logs_dir   <- file.path(base_dir, "transcriptomics", "htx", "logs")
 
 for (d in c(data_raw, data_meta, data_proc, results_qc, figs_dir, logs_dir)) {
   if (!dir.exists(d)) dir.create(d, recursive = TRUE)

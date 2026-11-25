@@ -8,7 +8,7 @@
 Rplots.pdf
 
 # --- Symlinks / Local Helpers ---
-scripts/h1.R
+h1.R
 
 # --- Large Raw & Processed Data (auto-created locally by scripts/01 & h1) ---
 data/
@@ -16,14 +16,14 @@ data/
 *.rds
 
 # --- Large Differential Dumps & Legacy Logs (exceed lean repo size) ---
-results/differential/CD_vs_nonIBD_results.csv
-results/differential/UC_vs_nonIBD_results.csv
-results/differential/CD_vs_nonIBD/
-results/differential/UC_vs_nonIBD/
-results/differential/CD_vs_nonIBD_prev20pct/
+transcriptomics/microbial/results/differential/CD_vs_nonIBD_results.csv
+transcriptomics/microbial/results/differential/UC_vs_nonIBD_results.csv
+transcriptomics/microbial/results/differential/CD_vs_nonIBD/
+transcriptomics/microbial/results/differential/UC_vs_nonIBD/
+transcriptomics/microbial/results/differential/CD_vs_nonIBD_prev20pct/
 
-# --- Slide Decks, Archives & Local Docs (keep local only) ---
+# --- Slide Decks, Archives, Logs & Local Docs (keep local only) ---
 *.pptx
 *.zip
 docs/
-
+**/logs/

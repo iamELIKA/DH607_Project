@@ -51,9 +51,9 @@ suppressPackageStartupMessages({
 base_dir   <- file.path(path.expand("~"), "Desktop", "607", "IBD_MTX_project")
 data_raw   <- file.path(base_dir, "data", "raw")
 data_proc  <- file.path(base_dir, "data", "processed")
-diff_dir   <- file.path(base_dir, "results", "differential")
-figs_dir   <- file.path(base_dir, "figures")
-logs_dir   <- file.path(base_dir, "logs")
+diff_dir   <- file.path(base_dir, "transcriptomics", "microbial", "results", "differential")
+figs_dir   <- file.path(base_dir, "transcriptomics", "microbial", "figures")
+logs_dir   <- file.path(base_dir, "transcriptomics", "microbial", "logs")
 
 for (d in c(data_raw, data_proc, diff_dir, figs_dir, logs_dir)) {
   if (!dir.exists(d)) dir.create(d, recursive = TRUE)

@@ -39,9 +39,9 @@ suppressPackageStartupMessages({
 ## ---- 1. Paths ---------------------------------------------------------------
 base_dir   <- file.path(path.expand("~"), "Desktop", "607", "IBD_MTX_project")
 meta_file  <- file.path(base_dir, "data", "metadata", "hmp2_metadata_2018-08-20.csv")
-results_qc <- file.path(base_dir, "results", "qc")
-figs_dir   <- file.path(base_dir, "figures")
-logs_dir   <- file.path(base_dir, "logs")
+results_qc <- file.path(base_dir, "transcriptomics", "microbial", "results", "qc")
+figs_dir   <- file.path(base_dir, "transcriptomics", "microbial", "figures")
+logs_dir   <- file.path(base_dir, "transcriptomics", "microbial", "logs")
 proc_dir   <- file.path(base_dir, "data", "processed")
 
 for (d in c(results_qc, figs_dir, logs_dir, proc_dir)) {
