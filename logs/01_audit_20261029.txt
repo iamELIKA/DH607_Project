@@ -1,0 +1,15 @@
+Audit date: 2026-10-29 16:41:45.093321
+R version: R version 4.6.1 (2026-06-24)
+
+MTX genefamilies size (MB): 1.5
+MTX pathway table size (MB): 1.7
+Metadata size (MB): 9.074
+
+Gene-family table columns: 736
+Gene-family table total feature rows: 14674
+
+Metadata rows: 5533
+Metadata columns: 490
+
+Overlap (MTX table ↔ MTX metadata): 735
+Technical replicate samples (_TR): 0

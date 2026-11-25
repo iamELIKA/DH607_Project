@@ -1,0 +1,4 @@
+diagnosis_std,n_samples,n_participants,median_samples_per_participant,pct_female,median_age,pct_antibiotics
+CD,394,52,7,44.4,16,15
+UC,238,30,7,66,26,4.6
+nonIBD,203,27,7,45.8,23,3

@@ -1,0 +1,38 @@
+IBD MTX Project — Metadata QC Report
+Generated: 2026-10-30 17:37:57 
+
+=== COLUMN MAPPING ===
+Sample ID:      External ID 
+Participant:    Participant ID 
+Diagnosis:      diagnosis 
+Data type:      data_type 
+Age:            consent_age 
+Sex:            sex 
+Site:           site_name 
+
+=== COHORT ===
+  diagnosis_std n_samples n_participants median_samples_per_participant pct_female median_age
+1            CD       394             52                              7       44.4         16
+2            UC       238             30                              7       66.0         26
+3        nonIBD       203             27                              7       45.8         23
+  pct_antibiotics
+1            15.0
+2             4.6
+3             3.0
+
+=== MULTIOMICS PARTICIPANT COVERAGE ===
+  MTX   :  835 samples, 109 participants (109 overlap MTX)
+  MGX   : 1638 samples, 130 participants (109 overlap MTX)
+  MPX   :  450 samples,  89 participants (84 overlap MTX)
+  MBX   :  546 samples, 106 participants (104 overlap MTX)
+  HTX   :  252 samples,  90 participants (88 overlap MTX)
+
+=== STATISTICAL SUITABILITY ===
+Primary comparison: CD vs nonIBD
+  CD:     394 samples, 52 participants
+  nonIBD: 203 samples, 27 participants
+  Total analysis set: 597 samples
+
+Secondary comparison: UC vs nonIBD
+  UC:     238 samples, 30 participants
+  nonIBD: 203 samples, 27 participants

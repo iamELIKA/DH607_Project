@@ -1,0 +1,28 @@
+# --- OS & RStudio / R Artifacts ---
+.DS_Store
+.Rhistory
+.RData
+.Ruserdata
+.Rproj.user/
+*.Rproj
+Rplots.pdf
+
+# --- Symlinks / Local Helpers ---
+scripts/h1.R
+
+# --- Large Raw & Processed Data (auto-created locally by scripts/01 & h1) ---
+data/
+*.tsv.gz
+*.rds
+
+# --- Large Differential Dumps & Legacy Logs (exceed lean repo size) ---
+results/differential/CD_vs_nonIBD_results.csv
+results/differential/UC_vs_nonIBD_results.csv
+results/differential/CD_vs_nonIBD/
+results/differential/UC_vs_nonIBD/
+results/differential/CD_vs_nonIBD_prev20pct/
+
+# --- Slide Decks & Local Docs (keep local only) ---
+*.pptx
+docs/
+

@@ -1,0 +1,31 @@
+=============================================================
+Host Transcriptomics (HTX) QC & Exploration Report
+Generated: 2026-11-02 16:47:52 
+=============================================================
+
+1. Raw Table Dimensions:  55765 genes × 254 samples
+2. Analyzed Samples:      249 
+3. Expressed Genes Kept:  21768 (out of 55765 total)
+4. Missing / NAs:         0 
+5. Library Size Depth:   Median = 39,275,226 reads (Range: 809 - 73,302,097 )
+
+6. Sample Breakdown by Diagnosis:
+
+    CD nonIBD     UC 
+   125     51     73 
+
+7. Sample Breakdown by Tissue Location:
+
+ Colon  Ileum  Other Rectum 
+    58     92      1     98 
+
+8. Top 10 Most Variable Host Genes:
+    APOB    APOA4    APOA1    REG3A    FABP6    DEFA5    ALDOB     MTTP  CEACAM7    DEFA6 
+23.24708 19.98863 19.84707 19.06283 19.05058 18.94177 18.78294 18.35888 18.35115 17.91541 
+
+9. Visualisation Outputs (PNG Images):
+   - figures/htx_qc_library_size.png
+   - figures/htx_pca_diagnosis_tissue.png
+   - figures/htx_heatmap_top50_genes.png
+   - figures/htx_barplot_top_variable_genes.png
+=============================================================

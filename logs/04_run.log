@@ -1,0 +1,50 @@
+=============================================================
+Script 04: MGX Adjustment & Microbial Transcriptional Activity (EC-level)
+Session started: 2026-11-25 12:01:49 
+R version: R version 4.6.2 (2026-10-29) 
+=============================================================
+
+Found MTX_ecs.tsv.gz: 21.3 MB
+Found MGX_ecs.tsv.gz: 88.8 MB
+Clean unique same-visit MTX-MGX pairs: 835
+Paired cohort: 835 samples (CD=394, UC=238, nonIBD=203)
+
+--- Loading MTX EC table (MTX_ecs.tsv.gz) ---
+MTX: 735 / 835 requested sample columns matched
+MTX unstratified matrix: 2082 ECs x 735 samples
+
+--- Loading MGX EC table (MGX_ecs.tsv.gz) ---
+MGX: 813 / 835 requested sample columns matched
+MGX unstratified matrix: 2173 ECs x 813 samples
+
+ECs passing MTX prevalence (>=10%) & abundance (>=1.0e-07) & present in MGX: 1107
+MTX max value (first 50 ECs): 0.138704
+MTX appears to be relative abundance (max <= 1). Applying log2 directly.
+MGX max value (first 50 ECs): 0.012956
+MGX appears to be relative abundance (max <= 1). Applying log2 directly.
+Final aligned paired samples: 735 (CD=337, UC=211, nonIBD=187)
+
+--- Running CD vs nonIBD (unadjusted + DNA-adjusted) across 32 cores ---
+
+--- Running UC vs nonIBD (unadjusted + DNA-adjusted) across 32 cores ---
+Saved CD and UC MGX-adjusted EC results to: /home/elika/Desktop/607/IBD_MTX_project/results/differential 
+
+--- Generating DNA adjustment visualisations ---
+Saved: figures/volcano_MGX_adjusted_CD.png 
+Saved: figures/volcano_MGX_adjusted_UC.png 
+
+=== SUMMARY OF TRANSCRIPTIONAL ACTIVITY (EC-LEVEL) ===
+    comparison                 regulation_status   n  pct
+1 CD_vs_nonIBD        Abundance Driven (Passive)  82  7.4
+2 CD_vs_nonIBD Active Transcriptional Regulation  79  7.1
+3 CD_vs_nonIBD                                NS 946 85.5
+4 UC_vs_nonIBD        Abundance Driven (Passive) 126 11.4
+5 UC_vs_nonIBD Active Transcriptional Regulation 181 16.4
+6 UC_vs_nonIBD                                NS 800 72.3
+
+Session log saved to: /home/elika/Desktop/607/IBD_MTX_project/logs/04_session_20261125.txt 
+
+=============================================================
+SCRIPT 04 COMPLETE
+=============================================================
+Session ended: 2026-11-25 12:02:00 
