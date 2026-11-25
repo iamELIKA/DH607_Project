@@ -1,0 +1,2 @@
+"bin","set","n_bin","n_stable","n_elig_subj","obs_medZ","p_medZ","direction_match","train_obs_medZ","train_p_medZ","test_type"
+"45–75 d","test",2,70,1,0.373184553925734,NA,TRUE,0.421746137819421,4e-04,"descriptive_only"

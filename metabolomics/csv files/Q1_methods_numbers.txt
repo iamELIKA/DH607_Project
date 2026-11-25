@@ -1,0 +1,26 @@
+Q1 METHODS NUMBERS
+generated: 2026-11-24 19:07 
+
+TRAIN SET
+  total train samples: 391 
+  stable reference samples: 283 
+  stable reference subjects: 65 
+
+PRE-ONSET SAMPLES BY BIN
+  0–45 d     :  26 samples, 19 subjects
+  45–75 d    :  18 samples, 14 subjects
+  75–120 d   :  15 samples, 15 subjects
+  120–200 d  :  19 samples, 14 subjects
+  200–400 d  :   7 samples,  5 subjects
+
+PERMUTATION TEST (N = 5000 )
+  outcome: median |Z-score from personal baseline|
+  direction: one-tailed (pre > stable)
+  correction: Benjamini-Hochberg across 5 bins
+
+RESULTS
+  bin 0–45 d     : n=17, d=-0.325, p=0.085, p_BH=0.153
+  bin 45–75 d    : n=14, d=0.363, p=0.000, p_BH=0.002
+  bin 75–120 d   : n= 9, d=-0.217, p=0.262, p_BH=0.262
+  bin 120–200 d  : n=10, d=-0.352, p=0.114, p_BH=0.153
+  bin 200–400 d  : n= 4, d=NA, p=NA, p_BH=NA

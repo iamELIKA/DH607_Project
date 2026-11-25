@@ -27,7 +27,10 @@ IBD_MTX_project/
 │   │                                  # Paired RNA+DNA (EC-level) active vs passive modeling
 │   └── h1_download_and_visualise_HTX.R# Host biopsy transcriptomics QC, PCA & top variable genes
 │
-├── metabolomics/                      # [Reserved] Empty folder for co-researcher's metabolomic analysis
+├── metabolomics/                      # Co-researcher's longitudinal metabolomic (MBX) analysis
+│   ├── scripts/                       # MBX R analysis scripts (step_0, personA/B/C, Q1–Q4)
+│   ├── csv files/                     # Summary tables & feature results (Q1–Q4)
+│   └── figures/                       # MBX volatility, deviation, trajectory & Q1–Q4 plots
 │
 ├── figures/                           # All QC, differential, QQ, DNA-adjusted & HTX plots
 │   ├── qc_*.pdf                       # Script 02 cohort & multi-omics overlap plots
@@ -81,9 +84,9 @@ IBD_MTX_project/
 
 ---
 
-## 5. Co-Researcher Collaboration (`metabolomics/`)
+## 5. Co-Researcher Contribution (`metabolomics/`)
 
-The **`metabolomics/`** folder is intentionally initialized as an empty directory for integrating the **metabolomic (MBX) analysis** performed by a co-researcher (e.g., longitudinal deviation/pre-flare dynamics and metabolite signatures).
+The **`metabolomics/`** folder contains the longitudinal **metabolomic (MBX) analysis** (pre-flare volatility, personal-baseline deviation vs absolute levels, lead-time classification, and post-flare recovery across Q1–Q4), organized into `scripts/`, `csv files/`, and `figures/`.
 
 ---
 
